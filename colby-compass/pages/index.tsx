@@ -20,9 +20,14 @@ export default function Home() {
         <Image 
           src="/colby_map.png"
           alt="Colby Map"
-          width={1300}
-          height={850}
+          // width={1300}
+          // height={850}
+          layout='fill'
+          
         />
+        <div>
+          <button> Button Here </button>
+        </div>
         {/* <div className={styles.description}> */}
         {/* <div style={{ divStyle.backgroundImage }}></div> */}
           {/* <img src={main_img.src}/> */}
