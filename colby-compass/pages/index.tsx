@@ -1,14 +1,17 @@
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import main_img from "/colby_map.png"
-import Calendar from "react-calendar";
-import 'react-calendar/dist/Calendar.css';
+
 
 export default function Home() {
-  const [value, onChange] = useState(new Date());
+  function buttonClick(){
+    
+    console.log('button clicked!'); 
+  }
   return (
     <>
       <Head>
@@ -17,26 +20,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <main className={`${styles.main} ${inter.className}`}> */}
-        {/* <Image 
-          src="/colby_map.png"
-          alt="Colby Map"
-          // width={1300}
-          // height={850}
-          layout='fill'
-          
-        /> */}
-        
         <div className={`${styles.map_container}`}>
           <img src="/colby_map.png" width='100%' height='100%' style={{bottom:0}}/>
-          <button className={`${styles.btn}`}> Davis Science Center </button>
+          <Link href="/davis" className={`${styles.btn}`} onClick={buttonClick}>
+            Davis Science Center 
+          </Link>
         </div>
-        {/* <div>
-        <Calendar 
-          onChange={onChange} 
-          value={value} 
-          />
-        </div> */}
+
         {/* <div className={styles.description}> */}
         {/* <div style={{ divStyle.backgroundImage }}></div> */}
           {/* <img src={main_img.src}/> */}
