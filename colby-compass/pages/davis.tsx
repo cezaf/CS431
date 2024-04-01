@@ -2,6 +2,8 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import Modal from 'react-modal';
+import React, { useState } from "react";
 
 const events = [
   { title: 'CS Advisory Board Meeting', start: '2024-03-21T19:00:00', end: '2024-03-21T20:00:00'},
@@ -12,8 +14,15 @@ const events = [
 ]
 
 export function DemoApp() {
+  const [isOpen, setIsOpen] = React.useState(false)
   return (
+    
     <div>
+      <button onClick={()=> setIsOpen(true)}>Open Modal</button>
+      <Modal isOpen={isOpen} onRequestClose={()=> setIsOpen(false)}>
+        <h1>Modal content</h1>
+        <button onClick={()=> setIsOpen(false)}></button>
+      </Modal>
       <h1>Davis Science Center</h1>
       <FullCalendar
         eventTimeFormat={{
