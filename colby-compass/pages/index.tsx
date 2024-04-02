@@ -5,13 +5,10 @@ import React, { useState } from "react";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import main_img from "/colby_map.png"
+import 'react-tooltip/dist/react-tooltip.css';
 
 
 export default function Home() {
-  function buttonClick(){
-    
-    console.log('button clicked!'); 
-  }
   return (
     <>
       <Head>
@@ -22,7 +19,7 @@ export default function Home() {
       </Head>
         <div className={`${styles.map_container}`}>
           <img src="/colby_map.png" width='100%' height='100%' style={{bottom:0}}/>
-          <Link href="/davis" className={`${styles.btn}`} onClick={buttonClick}>
+          <Link href="/davis" className={`${styles.btn}`}>
             Davis Science Center 
           </Link>
         </div>

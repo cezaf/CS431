@@ -20,6 +20,8 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "react-modal": "^3.16.1"
+    "@nextui-org/tooltip": "^2.0.30",
+    "react-modal": "^3.16.1",
+    "react-tooltip": "^5.26.3"
   }
 }
