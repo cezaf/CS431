@@ -17,109 +17,60 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+        <div id='banner'>
+          <h1>Colby Compass</h1>
+        </div>
         <div className={`${styles.map_container}`}>
           <img src="/colby_map.png" width='100%' height='100%' style={{bottom:0}}/>
-          <Link href="/davis" className={`${styles.btn}`}>
+          <Link href="/davis" className={`${styles.davis}`}>
             Davis Science Center 
           </Link>
+          <Link href="/diamond" className={`${styles.diamond}`}>
+            Diamond Building 
+          </Link>
+          <Link href="/gordon" className={`${styles.gordon}`}>
+          Gordon Center for Creative and Performing Arts 
+          </Link>
+          <Link href="/parker_reed" className={`${styles.parker_reed}`}>
+          Schair-Swenson-Watson Alumni Center (Parker Reed) 
+          </Link>
+          <Link href="/parker_reed" className={`${styles.parker_reed}`}>
+          Schair-Swenson-Watson Alumni Center (Parker Reed) 
+          </Link>
+          <Link href="/runnals" className={`${styles.runnals}`}>
+          Runnals Building 
+          </Link>
+          <Link href="/dana" className={`${styles.dana}`}>
+          Dana Hall 
+          </Link>
+          <Link href="/cotter" className={`${styles.cotter}`}>
+          Cotter Union
+          </Link>
+          <Link href="/olin" className={`${styles.olin}`}>
+          F.W. Olin Science Center
+          </Link>
+          <Link href="/miller" className={`${styles.miller}`}>
+          Miller Library
+          </Link>
+          <Link href="/art" className={`${styles.art}`}>
+          Colby College Museum of Art
+          </Link>
+          <Link href="/lorimer" className={`${styles.lorimer}`}>
+          Lorimer Chapel
+          </Link>
+          <Link href="/bixler" className={`${styles.bixler}`}>
+          Bixler Art and Music Center
+          </Link>
+          <Link href="/grossman" className={`${styles.grossman}`}>
+          Grossman Hall
+          </Link>
+          <Link href="/athletics" className={`${styles.athletics}`}>
+          Harold Alfond Athletics and Recreation Center
+          </Link>
+          <Link href="/bobs" className={`${styles.bobs}`}>
+          Roberts Hall
+          </Link>
         </div>
-
-        {/* <div className={styles.description}> */}
-        {/* <div style={{ divStyle.backgroundImage }}></div> */}
-          {/* <img src={main_img.src}/> */}
-          {/* <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a> */}
-        {/* </div> */}
-      {/* </main> */}
     </>
   );
 }

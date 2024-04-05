@@ -13,33 +13,360 @@
   height: auto;
 }
 
-.map_container .btn {
-  position: absolute;
-  width: 7%;
-  height: 7%;
+.map_container .davis {
+  width: 5%;
+  height: 5%;
   top: 70%;
   left: 65%;
-  /* transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); */
-  background-color: #7CB9E8;
+  position: absolute;
   opacity: 0;
   color: white;
-  font-size: 15px;
-  /* padding: 12px 24px; */
-  border: none;
+  font-size: 13px;
+  padding: 8px;
+  padding-bottom: 16px;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  display: table-cell;
+  text-decoration: none;
 }
 
+.map_container .davis:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
 
-.map_container .btn:hover {
-  background-color: #7CB9E8;
-  opacity: 1;
+.map_container .diamond {
+  width: 10%;
+  height: 5%;
+  top: 75%;
+  right: 57%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 13px;
+  padding-top: 16px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .diamond:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .gordon {
+  width: 10%;
+  height: 5%;
+  top: 80%;
+  right: 69%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 13px;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .gordon:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .parker_reed {
+  width: 10%;
+  height: 5%;
+  top: 77%;
+  right: 29%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 13px;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .parker_reed:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .runnals {
+  width: 8%;
+  height: 5%;
+  top: 60%;
+  right: 81%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 13px;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .runnals:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .dana {
+  width: 7%;
+  height: 5%;
+  top: 50%;
+  right: 80%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 13px;
+  padding-top: 16px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .dana:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .cotter {
+  width: 9%;
+  height: 6%;
+  top: 51%;
+  right: 65%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 18px;
+  /* padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px; */
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .cotter:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .olin {
+  width: 9%;
+  height: 6%;
+  top: 57%;
+  right: 38%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 18px;
+  padding-left: 6px;
+  padding-right: 6px;
+  /* padding-bottom: 2px; */
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .olin:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .miller {
+  width: 9%;
+  height: 6%;
+  top: 35%;
+  right: 56%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 18px;
+  padding-left: 6px;
+  padding-right: 6px;
+  /* padding-bottom: 2px; */
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .miller:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .art {
+  width: 8%;
+  height: 6%;
+  top: 54%;
+  right: 32%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .art:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .lorimer {
+  width: 5%;
+  height: 5%;
+  top: 39%;
+  right: 76%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .lorimer:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .bixler {
+  width: 6%;
+  height: 5%;
+  top: 47%;
+  right: 35%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 13px;
+  padding-top: 14px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .bixler:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .grossman {
+  width: 4%;
+  height: 4%;
+  top: 41%;
+  right: 38%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 6px;
+  padding-right: 9px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .grossman:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .athletics {
+  width: 10%;
+  height: 8%;
+  top: 17%;
+  right: 32%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .athletics:hover {
+  background-color:	#242e44;
+  opacity: .8;
+}
+
+.map_container .bobs {
+  width: 4%;
+  height: 4%;
+  top: 32%;
+  right: 35%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.map_container .bobs:hover {
+  background-color:	#242e44;
+  opacity: .8;
 }
 
 .main {
