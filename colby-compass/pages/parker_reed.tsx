@@ -43,7 +43,7 @@ function renderEventContent(eventInfo) {
         <div id='event'>
           <h3>{eventInfo.event.title}</h3>
           <i>{eventInfo.timeText} at {eventInfo.event.extendedProps.location}</i>
-          <p>{eventInfo.event.extendedProps.description}</p>
+          <p>Event Tag: {eventInfo.event.extendedProps.description}</p>
         </div>
         }>
       <b id='event_title'>{eventInfo.event.title}</b>

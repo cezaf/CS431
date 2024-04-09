@@ -70,6 +70,21 @@ export default function Home() {
           <Link href="/bobs" className={`${styles.bobs}`}>
           Roberts Hall
           </Link>
+          <Link href="/mary_lowe" className={`${styles.mary_lowe}`}>
+          Mary Lowe Coffeehouse
+          </Link>
+          <Link href="/eustis_parking" className={`${styles.eustis}`}>
+          Eustis Parking Lot
+          </Link>
+          <Link href="/foss" className={`${styles.foss}`}>
+          Foss Dining Hall
+          </Link>
+          <Link href="/colby_green" className={`${styles.colby_green}`}>
+          Colby Green
+          </Link>
+          <Link href="/johnson" className={`${styles.johnson}`}>
+          Johnson Pond
+          </Link>
         </div>
     </>
   );

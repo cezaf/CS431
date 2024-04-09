@@ -15,10 +15,10 @@ const events = [
   { title: 'WiMaCS Movie Night', start: '2024-04-05T19:00:00', end: '2024-04-05T21:00:00', description: "Description WiMaCS Movie Night", location: "Davis 201"}
 ]
 
-export function Art() {
+export function Eustis() {
   return (
     <div id='calendar'>
-      <h1 id='building_name'>Colby College Museum of Art</h1>
+      <h1 id='building_name'>Eustis Parking Lot</h1>
       <FullCalendar
         eventTimeFormat={{
             hour: "numeric",
@@ -52,4 +52,4 @@ function renderEventContent(eventInfo) {
   )
 }
 
-export default Art;
+export default Eustis;
