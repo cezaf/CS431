@@ -1,30 +1,68 @@
+import React, { useEffect, useState } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
-import styles from "@/styles/Home.module.css";
-import Link from "next/link";
-import React, { useState } from "react";
 import 'react-tooltip/dist/react-tooltip.css';
 import { Tooltip } from '@nextui-org/tooltip';
 
-// add location + make CSS for each event block
-const events = [
-  { title: 'CS Advisory Board Meeting', start: '2024-03-21T19:00:00', end: '2024-03-21T20:00:00', description: "Description1", location: "Davis 301"},
-  { title: 'CS Movie Night', start: '2024-03-08T20:00:00', end: '2024-03-08T22:00:00', description: "Description CS Movie Night", location: "Davis 102"},
-  { title: 'CS Advisory Board Meeting', start: '2024-04-03T20:00:00', end: '2024-04-03T22:00:00', description: "Description 2 CS Advisory", location: "Davis 301"},
-  { title: 'CS Game Night', start: '2024-04-04T20:00:00', end: '2024-04-04T22:00:00', description: "Description CS Game Night", location: "Davis 112"},
-  { title: 'WiMaCS Movie Night', start: '2024-04-05T19:00:00', end: '2024-04-05T21:00:00', description: "Description WiMaCS Movie Night", location: "Davis 201"}
-]
+interface Event {
+  title: string;
+  start: string;
+  end: string;
+  description: string;
+  location: string;
+}
 
-export function Foss() {
+const Foss: React.FC = () => {
+  const [events, setEvents] = useState<Event[]>([]);
+
+  useEffect(() => {
+    fetchEvents();
+  }, []);
+
+  const fetchEvents = async () => {
+    try {
+      const response = await fetch('/data.json'); // Path to your JSON file
+      const eventData: any[] = await response.json();
+      const fossEvents: Event[] = eventData
+        .filter(event => event.location === "Foss")
+        .map(event => ({
+          title: event["Program Title"],
+          start: `${event.Date}T${event["Start Time"]}`,
+          end: `${event.Date}T${event["End Time"]}`,
+          description: `Attendance: ${event.Attendance}`,
+          location: event.location
+        }));
+      setEvents(fossEvents);
+    } catch (error) {
+      console.error('Error fetching events:', error);
+    }
+  };
+
+  const renderEventContent = (eventInfo: any) => {
+    return (
+      <div>
+        <Tooltip showArrow={true} content={
+          <div id='event'>
+            <h3>{eventInfo.event.title}</h3>
+            <i>{eventInfo.timeText} at {eventInfo.event.extendedProps.location}</i>
+            <p>Event Tag: {eventInfo.event.extendedProps.description}</p>
+          </div>
+        }>
+          <b id='event_title'>{eventInfo.event.title}</b>
+        </Tooltip>
+      </div>
+    );
+  };
+
   return (
     <div id='calendar'>
       <h1 id='building_name'>Foss Dining Hall</h1>
       <FullCalendar
         eventTimeFormat={{
-            hour: "numeric",
-            minute: "2-digit",
-            meridiem: "short",
-          }}
+          hour: "numeric",
+          minute: "2-digit",
+          meridiem: "short",
+        }}
         plugins={[dayGridPlugin]}
         initialView='dayGridMonth'
         weekends={true}
@@ -33,23 +71,7 @@ export function Foss() {
         eventContent={renderEventContent}
       />
     </div>
-  )
-}
-
-function renderEventContent(eventInfo) {
-  return (
-    <div>
-      <Tooltip showArrow={true} content={
-        <div id='event'>
-          <h3>{eventInfo.event.title}</h3>
-          <i>{eventInfo.timeText} at {eventInfo.event.extendedProps.location}</i>
-          <p>Event Tag: {eventInfo.event.extendedProps.description}</p>
-        </div>
-        }>
-      <b id='event_title'>{eventInfo.event.title}</b>
-      </Tooltip>
-    </div>
-  )
-}
+  );
+};
 
 export default Foss;

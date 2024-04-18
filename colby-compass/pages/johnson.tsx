@@ -1,30 +1,66 @@
+import React, { useState, useEffect } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
-import styles from "@/styles/Home.module.css";
-import Link from "next/link";
-import React, { useState } from "react";
 import 'react-tooltip/dist/react-tooltip.css';
 import { Tooltip } from '@nextui-org/tooltip';
 
-// add location + make CSS for each event block
-const events = [
-  { title: 'CS Advisory Board Meeting', start: '2024-03-21T19:00:00', end: '2024-03-21T20:00:00', description: "Description1", location: "Davis 301"},
-  { title: 'CS Movie Night', start: '2024-03-08T20:00:00', end: '2024-03-08T22:00:00', description: "Description CS Movie Night", location: "Davis 102"},
-  { title: 'CS Advisory Board Meeting', start: '2024-04-03T20:00:00', end: '2024-04-03T22:00:00', description: "Description 2 CS Advisory", location: "Davis 301"},
-  { title: 'CS Game Night', start: '2024-04-04T20:00:00', end: '2024-04-04T22:00:00', description: "Description CS Game Night", location: "Davis 112"},
-  { title: 'WiMaCS Movie Night', start: '2024-04-05T19:00:00', end: '2024-04-05T21:00:00', description: "Description WiMaCS Movie Night", location: "Davis 201"}
-]
+interface Event {
+  title: string;
+  start: string; // Change the type if necessary
+  end: string;   // Change the type if necessary
+  description: string;
+  location: string;
+}
 
-export function Johnson() {
+const Johnson: React.FC = () => {
+  const [events, setEvents] = useState<Event[]>([]);
+
+  useEffect(() => {
+    fetchEvents();
+  }, []);
+
+  const fetchEvents = async () => {
+    try {
+      // Fetch events data from JSON file or API endpoint
+      const response = await fetch('/data.json');
+      const eventData: Event[] = await response.json();
+      
+      // Filter events for location "Johnson"
+      const johnsonEvents = eventData.filter(event => event.location === "Johnson");
+
+      // Set filtered events state
+      setEvents(johnsonEvents);
+    } catch (error) {
+      console.error('Error fetching events:', error);
+    }
+  };
+
+  // Render event content
+  const renderEventContent = (eventInfo: any) => {
+    return (
+      <div>
+        <Tooltip showArrow={true} content={
+          <div id='event'>
+            <h3>{eventInfo.event.title}</h3>
+            <i>{eventInfo.timeText} at {eventInfo.event.extendedProps.location}</i>
+            <p>Event Tag: {eventInfo.event.extendedProps.description}</p>
+          </div>
+        }>
+          <b id='event_title'>{eventInfo.event.title}</b>
+        </Tooltip>
+      </div>
+    );
+  };
+
   return (
     <div id='calendar'>
       <h1 id='building_name'>Johnson Pond</h1>
       <FullCalendar
         eventTimeFormat={{
-            hour: "numeric",
-            minute: "2-digit",
-            meridiem: "short",
-          }}
+          hour: "numeric",
+          minute: "2-digit",
+          meridiem: "short",
+        }}
         plugins={[dayGridPlugin]}
         initialView='dayGridMonth'
         weekends={true}
@@ -33,23 +69,7 @@ export function Johnson() {
         eventContent={renderEventContent}
       />
     </div>
-  )
-}
-
-function renderEventContent(eventInfo) {
-  return (
-    <div>
-      <Tooltip showArrow={true} content={
-        <div id='event'>
-          <h3>{eventInfo.event.title}</h3>
-          <i>{eventInfo.timeText} at {eventInfo.event.extendedProps.location}</i>
-          <p>Event Tag: {eventInfo.event.extendedProps.description}</p>
-        </div>
-        }>
-      <b id='event_title'>{eventInfo.event.title}</b>
-      </Tooltip>
-    </div>
-  )
-}
+  );
+};
 
 export default Johnson;

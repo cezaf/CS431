@@ -1,0 +1,866 @@
+[
+    {
+     "Date": "2022-08-31",
+     "Program Title": "COOT Welcome",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Colby Green"
+    },
+    {
+     "Date": "2022-08-31",
+     "Program Title": "Grouda boys",
+     "Start Time": "19:00:00",
+     "End Time": "22:30:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-01",
+     "Program Title": "Campus Ice Cream Truck ",
+     "Start Time": "10:30:00",
+     "End Time": "16:00:00",
+     "Location": " MaryLow Coffee House"
+    },
+    {
+     "Date": "2022-09-01",
+     "Program Title": "Marylow Winddown - Coffee, Pinky D's Poutine, Games on Runnals Walk",
+     "Start Time": "21:00:00",
+     "End Time": "22:30:00",
+     "Location": "MaryLow Coffee House"
+    },
+    {
+     "Date": "2022-09-04",
+     "Program Title": "Hypnotist Al Snyder",
+     "Event Type": "Orientation ",
+     "Start Time": "20:00:00",
+     "End Time": "21:30:00",
+     "Location": "Colby Green"
+    },
+    {
+     "Date": "2022-09-04",
+     "Program Title": "Road Warrior Pizza",
+     "Event Type": "Orientation ",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-05",
+     "Program Title": "Live Game Show",
+     "Event Type": "Orientation ",
+     "Start Time": "19:00:00",
+     "End Time": "23:00:00",
+     "Location": "Colby Green"
+    },
+    {
+     "Date": "2022-09-05",
+     "Program Title": "Beach Betty",
+     "Event Type": "Orientation ",
+     "Start Time": "19:00:00",
+     "End Time": "23:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-06",
+     "Program Title": "Live Band, Lawn Games, & S'mores Cart",
+     "Event Type": "Orientation ",
+     "Start Time": "18:00:00",
+     "End Time": "21:00:00",
+     "Location": "Roberts"
+    },
+    {
+     "Date": "2022-09-07",
+     "Program Title": "Photobooth First day of Classes",
+     "Start Time": "18:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-09-08",
+     "Program Title": "Movie (Nope)",
+     "Start Time": "20:30:00",
+     "End Time": "22:30:00",
+     "Location": "Dana"
+    },
+    {
+     "Date": "2022-09-09",
+     "Program Title": "Axe Throwing",
+     "Event Type": "First Weekend",
+     "Start Time": "19:00:00",
+     "End Time": "22:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-09",
+     "Program Title": "Acapella Sampler",
+     "Event Type": "First Weekend",
+     "Start Time": "19:00:00",
+     "End Time": "23:00:00",
+     "Location": "Lorimer Chapel"
+    },
+    {
+     "Date": "2022-09-09",
+     "Program Title": "Food Truck - Red Barn Food Truck",
+     "Event Type": "First Weekend",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-10",
+     "Program Title": "Club Fair  - Eight 8 Donut",
+     "Event Type": "First Weekend",
+     "Start Time": "13:00:00",
+     "End Time": "16:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-10",
+     "Program Title": "Rodeo Theme! (bull ride, food truck, cowboy hats)",
+     "Event Type": "First Weekend",
+     "Start Time": "16:00:00",
+     "End Time": "19:00:00",
+     "Location": "Colby Green"
+    },
+    {
+     "Date": "2022-09-10",
+     "Program Title": "Petting zoo",
+     "Event Type": "First Weekend",
+     "Start Time": "14:00:00",
+     "End Time": "18:00:00",
+     "Location": "Colby Green"
+    },
+    {
+     "Date": "2022-09-10",
+     "Program Title": "Food Truck - Pinky D's Poutine",
+     "Event Type": "First Weekend",
+     "Start Time": "23:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-16",
+     "Program Title": "Late Night Food Truck - Portland Pie",
+     "Start Time": "23:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-17",
+     "Program Title": "Fall Opening Concert: Dreezy",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Colby Green Tent"
+    },
+    {
+     "Date": "2022-09-20",
+     "Program Title": "Campus Engagement Fair with Student Jobs Info",
+     "Event Type": "Dean of the College Area",
+     "Start Time": "16:00:00",
+     "End Time": "18:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-09-23",
+     "Program Title": "Red Barn",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-24",
+     "Program Title": "CMI X Marylow Coffee House: Saturday Night Live",
+     "Start Time": "20:30:00",
+     "End Time": "22:30:00",
+     "Location": "Mary Low Coffee House"
+    },
+    {
+     "Date": "2022-09-24",
+     "Program Title": "Pizza Cone ",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-09-30",
+     "Program Title": "Baby Bingo\/Mini Bingo",
+     "Start Time": "21:00:00",
+     "End Time": "22:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-09-30",
+     "Program Title": "Sushi Food Truck - Mr. Tuna ",
+     "Start Time": "23:00:00",
+     "End Time": "0:00:00",
+     "Location": "Eustis"
+    },
+    {
+     "Date": "2022-10-01",
+     "Program Title": "Potato Fest",
+     "Start Time": "13:00:00",
+     "End Time": "16:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2022-10-15",
+     "Program Title": "Drag Show",
+     "Start Time": "21:00:00",
+     "End Time": "23:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-10-21",
+     "Program Title": "Burrito Night",
+     "Event Type": "Foss",
+     "Start Time": "17:00:00",
+     "End Time": "19:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2022-10-22",
+     "Program Title": "Paintball",
+     "Start Time": "12:00:00",
+     "End Time": "16:00:00",
+     "Location": "Runnnals"
+    },
+    {
+     "Date": "2022-10-22",
+     "Program Title": "Fall Concert",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Athletic Center"
+    },
+    {
+     "Date": "2022-10-22",
+     "Program Title": "Late Night Food Truck: Pinky D's Poutine",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-10-29",
+     "Program Title": "Pumpkin Carving with SGA",
+     "Event Type": "Conor",
+     "Start Time": "19:00:00",
+     "End Time": "22:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-10-29",
+     "Program Title": "Haunted House",
+     "Event Type": "Conor",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-10-29",
+     "Program Title": "Gouda Boys",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-11-04",
+     "Program Title": "Falafel Mafia Food Truck",
+     "Event Type": "Amy",
+     "Start Time": "22:00:00",
+     "End Time": "0:00:00",
+     "Location": "Eustis Lot"
+    },
+    {
+     "Date": "2022-11-05",
+     "Program Title": "Marylow Coffee House SNL ",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Mary Low Coffeehouse"
+    },
+    {
+     "Date": "2022-11-08",
+     "Program Title": "FLI Day Celebration",
+     "Start Time": "12:00:00",
+     "End Time": "14:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-11-09",
+     "Program Title": "Transgender November Film Screening",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Pugh Center"
+    },
+    {
+     "Date": "2022-11-11",
+     "Program Title": "Free Skate and Hot coco\/cider",
+     "Event Type": "Conor",
+     "Start Time": "20:30:00",
+     "End Time": "22:00:00",
+     "Location": "AC"
+    },
+    {
+     "Date": "2022-11-12",
+     "Program Title": "Movie Night:  Ferris Bueller's Day Off",
+     "Event Type": "Conor",
+     "Start Time": "21:00:00",
+     "End Time": "23:00:00",
+     "Location": "Diamond"
+    },
+    {
+     "Date": "2022-11-16",
+     "Program Title": "Transgender November Film Screening",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Pugh Center"
+    },
+    {
+     "Date": "2022-11-17",
+     "Program Title": "International Students Day",
+     "Start Time": "12:00:00",
+     "End Time": "14:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-11-18",
+     "Program Title": "Jeff LeBlanc at the Coffeehouse",
+     "Event Type": "Amy",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Mary Low Coffeehouse "
+    },
+    {
+     "Date": "2022-11-19",
+     "Program Title": "CAS Fashion Show",
+     "Start Time": "19:00:00",
+     "End Time": "20:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2022-11-20",
+     "Program Title": "International Food Festival",
+     "Start Time": "13:00:00",
+     "End Time": "15:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2022-12-01",
+     "Program Title": "Powder & Wig Fall Show ",
+     "Start Time": "19:30:00",
+     "End Time": "20:30:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-12-02",
+     "Program Title": "Powder & Wig Fall Show",
+     "Start Time": "19:30:00",
+     "End Time": "20:30:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-12-03",
+     "Program Title": "Paint Night",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-12-09",
+     "Program Title": "Colby Dancers Fall Show",
+     "Start Time": "19:00:00",
+     "End Time": "20:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2022-12-10",
+     "Program Title": "Colby Prom",
+     "Start Time": "19:00:00",
+     "End Time": "2:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-01-04",
+     "Program Title": "Wednesday Night Trivia",
+     "Event Type": "SPB",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-01-05",
+     "Program Title": "Learn to Latte Art",
+     "Event Type": "SPB",
+     "Start Time": "16:00:00",
+     "End Time": "18:00:00",
+     "Location": "Marylow Coffeehouse",
+     "Sponsor": 50
+    },
+    {
+     "Date": "2022-01-06",
+     "Program Title": "Big Prize Bingo",
+     "Event Type": "SPB",
+     "Start Time": "19:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-01-08",
+     "Program Title": "Bus to Freeport",
+     "Event Type": "SPB\/SGA",
+     "Start Time": "10:00:00",
+     "End Time": "11:00:00",
+     "Location": "Freeport",
+     "Sponsor": 55
+    },
+    {
+     "Date": "2023-01-09",
+     "Program Title": "Four Square Tournament",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Page Commons",
+     "Sponsor": 35
+    },
+    {
+     "Date": "2023-01-11",
+     "Program Title": "Wednesday Night Trivia",
+     "Event Type": "SPB",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Page Commons",
+     "Sponsor": "200+"
+    },
+    {
+     "Date": "2023-01-12",
+     "Program Title": "Learn to Paint",
+     "Event Type": "SPB\/All About Art",
+     "Start Time": "18:00:00",
+     "End Time": "19:00:00",
+     "Location": "Page Commons",
+     "Sponsor": "35+"
+    },
+    {
+     "Date": "2022-01-13",
+     "Program Title": "Food Truck",
+     "Event Type": "SPB",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Johnson",
+     "Sponsor": 200
+    },
+    {
+     "Date": "2023-01-14",
+     "Program Title": "Cookie Decorating",
+     "Event Type": "SPB",
+     "Start Time": "19:00:00",
+     "End Time": "20:00:00",
+     "Location": "SPA",
+     "Sponsor": 75
+    },
+    {
+     "Date": "2023-01-15",
+     "Program Title": "Brunch with Sunrise Bagels",
+     "Event Type": "SPB",
+     "Start Time": "11:00:00",
+     "End Time": "12:00:00",
+     "Location": "MaryLow Coffee House",
+     "Sponsor": 350
+    },
+    {
+     "Date": "2023-01-15",
+     "Program Title": "Tennis Lesson & Tournament",
+     "Event Type": "SPB\/Women's Tennis",
+     "Start Time": "13:00:00",
+     "End Time": "14:00:00",
+     "Location": "Field House",
+     "Sponsor": 200
+    },
+    {
+     "Date": "2023-01-16",
+     "Program Title": "Karaoke Night",
+     "Event Type": "SPB\/Women's Rugby",
+     "Start Time": "18:00:00",
+     "End Time": "19:00:00",
+     "Location": "Mary Low Coffee House",
+     "Sponsor": "50+"
+    },
+    {
+     "Date": "2023-01-18",
+     "Program Title": "Wednesday Night Trivia",
+     "Event Type": "SPB",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa",
+     "Sponsor": 150
+    },
+    {
+     "Date": "2023-01-19",
+     "Program Title": "Learn to Make Crepes",
+     "Event Type": "SPB\/French Club",
+     "Start Time": "18:00:00",
+     "End Time": "20:00:00",
+     "Location": "Spa",
+     "Sponsor": "55+"
+    },
+    {
+     "Date": "2023-01-20",
+     "Program Title": "Gingerbread House Competition",
+     "Event Type": "SPB",
+     "Start Time": "18:00:00",
+     "End Time": "19:00:00",
+     "Location": "Spa",
+     "Sponsor": 75
+    },
+    {
+     "Date": "2023-01-22",
+     "Program Title": "Bus to Portland",
+     "Event Type": "SPB\/SGA",
+     "Start Time": "10:00:00",
+     "End Time": "11:00:00",
+     "Location": "Roberts",
+     "Sponsor": 50
+    },
+    {
+     "Date": "2023-01-23",
+     "Program Title": "Sledding",
+     "Event Type": "SPB",
+     "Start Time": "15:00:00",
+     "End Time": "16:00:00",
+     "Location": "Chapel Hill",
+     "Sponsor": 100
+    },
+    {
+     "Date": "2023-01-24",
+     "Program Title": "Powder & Wig One Act Festival SHOW",
+     "Start Time": "21:30:00",
+     "End Time": "22:30:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-01-25",
+     "Program Title": "Wednesday Night Trivia",
+     "Event Type": "SPB",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa",
+     "Sponsor": 150
+    },
+    {
+     "Date": "2023-02-03",
+     "Program Title": "SPB Learn to Make Crepes",
+     "Event Type": "SPB",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-02-04",
+     "Program Title": "SPB Late Night Food Truck - S'mores",
+     "Event Type": "SPB",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-02-11",
+     "Program Title": "Powder & Wig One Week Musical Show",
+     "Start Time": "19:30:00",
+     "End Time": "20:30:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-02-17",
+     "Program Title": "Yule Ball",
+     "Event Type": "Harry Potter",
+     "Start Time": "5pm",
+     "End Time": "21:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-02-24",
+     "Program Title": "Trivia",
+     "Event Type": "SPB",
+     "Start Time": "19:30:00",
+     "End Time": "21:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-02-25",
+     "Program Title": "Saturday Night Live",
+     "Event Type": "SPB",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Marylow Coffeehouse"
+    },
+    {
+     "Date": "2023-03-03",
+     "Program Title": "Line Dancing",
+     "Event Type": "Maggie Blake",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-03-10",
+     "Program Title": "SPB Colby Universe",
+     "Start Time": "21:00:00",
+     "End Time": "23:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-03-10",
+     "Program Title": "Hydration Station",
+     "Start Time": "22:30:00",
+     "End Time": "6:30:00",
+     "Location": "Dana"
+    },
+    {
+     "Date": "2023-03-10",
+     "Program Title": "Board Games with Meeples and Morsels (Substance Free Event)",
+     "Start Time": "23:00:00",
+     "End Time": "1:00:00",
+     "Location": "Foss Dining Hall"
+    },
+    {
+     "Date": "2023-03-10",
+     "Program Title": "Colby Improv Show",
+     "Start Time": "23:00:00",
+     "End Time": "0:00:00",
+     "Location": "Coffee House"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Late Night FOOD",
+     "Start Time": "23:00:00",
+     "End Time": "3:00:00",
+     "Location": "Dana"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Karaoke",
+     "Start Time": "0:00:00",
+     "End Time": "1:00:00",
+     "Location": "Coffee House"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Board Games with Meeples and Morsels (Substance Free Event)",
+     "Start Time": "1:00:00",
+     "End Time": "5:00:00",
+     "Location": "Foss Dining Hall"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Doghead Bingo with Pugh Center ",
+     "Start Time": "3:00:00",
+     "End Time": "4:00:00",
+     "Location": "Pugh Center"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "SPB Sunrise Paint Party",
+     "Start Time": "5:00:00",
+     "End Time": "6:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Pugh We Made It! Hot Cocoa, Tea, Coffee, Hydration Station",
+     "Start Time": "5:00:00",
+     "End Time": "6:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Sunrise at Steps",
+     "Start Time": "5:58:00",
+     "End Time": "6:15:00",
+     "Location": "Miller Steps"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Student Breakfast in Dana",
+     "Start Time": "6:00:00",
+     "End Time": "10:00:00",
+     "Location": "Dana"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Senior Only Breakfast in Bob's",
+     "Start Time": "6:00:00",
+     "End Time": "10:00:00",
+     "Location": "Bob's"
+    },
+    {
+     "Date": "2023-03-11",
+     "Program Title": "Saturday Night Live",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Marylow Coffeehouse"
+    },
+    {
+     "Date": "2023-03-31",
+     "Program Title": "SPB Bowling",
+     "Start Time": "21:00:00",
+     "End Time": "0:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-04-01",
+     "Program Title": "Spring Drag Show",
+     "Start Time": "21:00:00",
+     "End Time": "23:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "Satuday, April 2",
+     "Program Title": "Take back the night movie night\/ safe space",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "20:00:00",
+     "End Time": "23:00:00",
+     "Location": "Marylow Coffeehouse"
+    },
+    {
+     "Date": "2023-04-03",
+     "Program Title": "GS Department Event",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "17:00:00",
+     "End Time": "19:00:00",
+     "Sponsor": "ORSL"
+    },
+    {
+     "Date": "2023-04-05",
+     "Program Title": "2 Moms Read Queer Bedtime Stories",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "20:00:00",
+     "End Time": "21:00:00",
+     "Location": "Marylow Cofeehouse"
+    },
+    {
+     "Date": "2023-04-06",
+     "Program Title": "History Department Event",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "17:00:00",
+     "End Time": "19:00:00",
+     "Location": "Marylow Cofeehouse",
+     "Sponsor": "SGA "
+    },
+    {
+     "Date": "2023-04-07",
+     "Program Title": "Powder & Wig Spring Show: Mouse Trap",
+     "Start Time": "19:30:00",
+     "End Time": "20:30:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-04-08",
+     "Program Title": "Battle of the Bands",
+     "Event Type": "SPB & CMI",
+     "Start Time": "21:00:00",
+     "End Time": "11pm",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-04-08",
+     "Program Title": "Powder & Wig Spring Show: Mouse Trap",
+     "Start Time": "19:30:00",
+     "End Time": "20:30:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-04-11",
+     "Program Title": "FLI Gathering",
+     "Event Type": "Marylow Cofeehouse",
+     "Start Time": "17:00:00",
+     "End Time": "19:00:00",
+     "Location": "Marylow Cofeehouse"
+    },
+    {
+     "Date": "2023-04-14",
+     "Program Title": "Line Dancing",
+     "Event Type": "Maggie",
+     "Start Time": "20:00:00",
+     "End Time": "21:30:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-04-14",
+     "Program Title": "SPB Club Night",
+     "Event Type": "Bey",
+     "Start Time": "22:00:00",
+     "End Time": "1:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-04-15",
+     "Program Title": "Saturday Night Live",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Marylow Coffeehouse"
+    },
+    {
+     "Date": "2023-04-21",
+     "Program Title": "First-Year Sophomore Carnival",
+     "Event Type": "SGA",
+     "Start Time": "20:30:00",
+     "End Time": "22:30:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-04-22",
+     "Program Title": "SGA Trip To Seadogs",
+     "Start Time": "11:00:00",
+     "End Time": "16:00:00",
+     "Location": "Portland"
+    },
+    {
+     "Date": "2023-04-22",
+     "Program Title": "Junior Senior Soiree",
+     "Event Type": "SGA",
+     "Start Time": "21:00:00",
+     "End Time": "1:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-04-28",
+     "Program Title": "Contra Dance",
+     "Start Time": "19:00:00",
+     "End Time": "20:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-04-28",
+     "Program Title": "International Extravaganza ",
+     "Start Time": "19:00:00",
+     "End Time": "21:00:00",
+     "Location": "Spa",
+     "Sponsor": "International Club"
+    },
+    {
+     "Date": "2023-04-29",
+     "Program Title": "Big Prize Bingo",
+     "Start Time": "19:00:00",
+     "End Time": "20:00:00",
+     "Location": "Foss"
+    },
+    {
+     "Date": "2023-04-29",
+     "Program Title": "Saturday Night Live",
+     "Event Type": "Marylow Coffeehouse",
+     "Start Time": "20:00:00",
+     "End Time": "22:00:00",
+     "Location": "Marylow Coffeehouse"
+    },
+    {
+     "Date": "2023-05-05",
+     "Program Title": "Colby Dancers Spring Show",
+     "Start Time": "19:00:00",
+     "End Time": "20:00:00",
+     "Location": "Spa"
+    },
+    {
+     "Date": "2023-05-06",
+     "Program Title": "Spring Concert",
+     "Start Time": "16:00:00",
+     "End Time": "19:00:00",
+     "Location": "Roberts"
+    }
+   ]

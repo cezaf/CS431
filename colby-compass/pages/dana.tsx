@@ -8,11 +8,42 @@ import { Tooltip } from '@nextui-org/tooltip';
 
 // add location + make CSS for each event block
 const events = [
-  { title: 'CS Advisory Board Meeting', start: '2024-03-21T19:00:00', end: '2024-03-21T20:00:00', description: "Description1", location: "Davis 301"},
-  { title: 'CS Movie Night', start: '2024-03-08T20:00:00', end: '2024-03-08T22:00:00', description: "Description CS Movie Night", location: "Davis 102"},
-  { title: 'CS Advisory Board Meeting', start: '2024-04-03T20:00:00', end: '2024-04-03T22:00:00', description: "Description 2 CS Advisory", location: "Davis 301"},
-  { title: 'CS Game Night', start: '2024-04-04T20:00:00', end: '2024-04-04T22:00:00', description: "Description CS Game Night", location: "Davis 112"},
-  { title: 'WiMaCS Movie Night', start: '2024-04-05T19:00:00', end: '2024-04-05T21:00:00', description: "Description WiMaCS Movie Night", location: "Davis 201"}
+  {
+    title: "Movie (Nope)",
+    start: "2022-09-08T20:30:00",
+    end: "2022-09-08T22:30:00",
+    description: "SPB Movie Night",
+    location: "Dana"
+   },
+   {
+    title: "Hydration Station",
+    start: "2023-03-10T22:30:00",
+    end: "2023-03-10T6:30:00",
+    description: "Doghead Fuel",
+    Location: "Dana"
+   },
+   {
+    title: "Late Night FOOD",
+    start: "2023-03-11T23:00:00",
+    end: "2022-09-08T3:00:00",
+    description: "Sponsored by SPB",
+    location: "Dana"
+   },
+   {
+    title: "Student Breakfast in Dana",
+    start: "2023-03-11T6:00:00",
+    end: "2023-03-11T10:00:00",
+    description: "Doghead Breakfast",
+    location: "Dana"
+   },
+   {
+    "Date": "2022-09-08",
+    title: "Movie (Nope)",
+    start: "2022-09-08T20:30:00",
+    end: "22:30:00",
+    description: "Start of Year Movie",
+    location: "Dana"
+   },
 ]
 
 export function Dana() {
