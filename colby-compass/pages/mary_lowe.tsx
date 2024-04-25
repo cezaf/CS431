@@ -18,7 +18,7 @@ const events = [
 export function Mary_Lowe() {
   return (
     <div id='calendar'>
-      <h1 id='building_name'>Mary Lowe Coffeehouse</h1>
+      <h1 id='building_name'>Mary Low Coffeehouse</h1>
       <FullCalendar
         eventTimeFormat={{
             hour: "numeric",

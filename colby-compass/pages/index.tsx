@@ -18,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <div id='banner'>
+          <img className={`${styles.separator}`} src="/colbycompass.png" width='5%' height='5%'/>
           <h1>Colby Compass</h1>
         </div>
         <div className={`${styles.map_container}`}>
@@ -71,7 +72,7 @@ export default function Home() {
           Roberts Hall
           </Link>
           <Link href="/mary_lowe" className={`${styles.mary_lowe}`}>
-          Mary Lowe Coffeehouse
+          Mary Low Coffeehouse
           </Link>
           <Link href="/eustis_parking" className={`${styles.eustis}`}>
           Eustis Parking Lot
