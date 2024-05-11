@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import 'react-tooltip/dist/react-tooltip.css';
 import { Tooltip } from '@nextui-org/tooltip';
+import DATA from './data.json';
 
 // add location + make CSS for each event block
 const events = [

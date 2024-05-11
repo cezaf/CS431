@@ -21,7 +21,7 @@ const Foss: React.FC = () => {
 
   const fetchEvents = async () => {
     try {
-      const response = await fetch('/data.json'); // Path to your JSON file
+      const response = await fetch('./data.json'); // Path to your JSON file
       const eventData: any[] = await response.json();
       const fossEvents: Event[] = eventData
         .filter(event => event.location === "Foss")
